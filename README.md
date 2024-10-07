@@ -19,8 +19,6 @@ should be able to browse the app.)
 3. By signing in as user (`john.smith@example.com` and `johnsmith`) you can see the extra CRUD view. 
 4. By signing in as admin (`jane.doe@example.com` and `janedoe`) you can see the dashboard view, too.
 
-Followings were my findings:
-
 ## Reported Issues:
 1. https://github.com/vaadin/control-center/issues/633
 2. https://github.com/vaadin/control-center/issues/638
