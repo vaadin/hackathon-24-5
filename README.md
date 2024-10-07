@@ -1,12 +1,10 @@
-# hackathon-24-5
-Repository for the 24.5 hackathon
+# I had some issues installing CC for the following environment:
+- Mac m2 pro
+- Colima with aarch_64 emulation profile
+- Minikube
+- Opened issue: https://github.com/vaadin/control-center/issues/646
+- Documentation could be updated to mention that you need to start ip address tunneling for Minikube before trying to install CC
 
-## rules
-Hackathon Rules
-
-1. Versions: Use Platform `24.5.0.beta5` 
-2. Choose your project: You can work on an app, fixes, migrations, new features, docs, addons, DS, or just reporting issues.
-3. Deadline: Upload your work to the [GitHub Repository](https://github.com/vaadin/hackathon-24-5) by Monday, the 7th October at noon.
-4. Contribution options: If you don’t have any code to show, please add a README or screenshots demoing your work.
-5. Communication: Use Slack channel #hackathon-24-5 for discussions.
-6. Documentation: Refer to vaadin.com/docs/latest for help and information.
+# Investigated how migrate Bakery from version Vaadin 14 to V24_5 using Polymer Template Addon and Copilot
+- Find out that GitHub Copilot is working somewhat better than our Copilot when trying to convert an existing Polymer template to pure V24 Java
+- Needs more invesitgations...
